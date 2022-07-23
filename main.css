@@ -1,0 +1,276 @@
+* {padding:0;
+margin:0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;}
+
+.showcase {background: #996B60;}
+
+.navbar {display: flex;
+justify-content: space-between;
+margin:0 5%;}
+
+.ul1 ul li,a {display:inline-block;
+padding:10px 0;
+margin:0 0 0 35px;
+font-size: 15px;}
+
+.ul2 ul li,a {display:inline-block;
+padding:10px 0;
+color:white;
+margin:0 35px 0 0;}
+
+.navbar > img {margin:10px 0;}
+
+.nav-text {color:white;
+width:40%;}
+
+.button{display: flex;
+gap: 50px;
+align-items: center;}
+
+.nav-text >h1 {font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 96px;
+margin:30px 0;}
+
+.nav-text > p {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin:30px 0;}
+
+.nav-text form button {background: #996B60;
+padding:20px 80px;
+border:2px solid white;
+margin:20px 0;}
+
+.wine {display: flex;
+justify-content:space-between;
+margin:0 5%;
+padding:50px 0;
+border-bottom: 2px solid #BDBDBD;;}
+
+.bon{width:33%;}
+
+.newyork{width:33%;}
+
+.food{width:33%;}
+
+.wine img {padding:45px 0;}
+
+.wine-box {margin:0 5%;
+padding:100px 0;}
+
+.wine-box > h1 {text-align: center;
+padding:10px;}
+
+.wine-box > p {text-align: center;
+margin:0 0 100px 0;}
+
+.card1 {display: flex;
+flex-wrap: wrap;
+padding:0 0 100px 0;
+border-bottom: 3px solid #BDBDBD;
+justify-content: space-around;}
+
+.wine1 {width:28%;}
+
+.wine1 > img {width:100%;}
+
+.wine2 {width:28%;}
+    
+.wine2 > img {width:100%;
+position: relative;}
+
+.imgs1 {position: absolute;
+top:1560px;
+left:55%;}
+
+.wine3 {width:28%;}
+        
+.wine3 > img {width:100%;
+position: relative;}
+
+.imgs2 {position:absolute;
+top:1560px;
+left:87%;}
+
+.card1 form > button {padding:10px 50px;
+margin:0 25%;
+background: #191919;
+color:white;}
+
+.wine-text1 > h1 {text-align: center;
+padding:10px 0;
+font-family: 'Liberation Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;}
+
+.wine-text1 > p {text-align: center;
+margin-bottom:50px;}
+
+.bck {margin:0 5%;
+padding:50px 0;}
+
+.bck > img {width:100%;}
+
+.text {display: flex;
+justify-content: space-between;
+padding:50px 0;
+border-bottom: 3px solid  #BDBDBD;}
+
+.bck .h1 {width:45%;
+font-family: 'Liberation Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 80px;}
+
+.bck .p {width:45%;}
+
+.cnt {display:flex;
+margin:0 5%;
+padding:50px 0;
+justify-content: space-between;}
+
+.cnt-text {margin:5% 0 0 0;
+width:40%;}
+
+.cnt > img {width:55%;}
+
+.cnt-text > h1 {margin:20px 0;
+font-size:35px;}
+
+.cnt-text > p {margin:20px 0;
+font-size:20px;}
+
+.qora {background-color: black;
+color:white;
+padding:100px 0;
+text-align: center;}
+
+.div {margin:0 5%;
+display: flex;
+justify-content:space-between;
+gap:40px;}
+
+.div1 {width:30%;}
+
+.div2 {width:30%;}
+
+.div3 {width:30%;}
+
+.gul {margin:0 5%;
+padding:100px 0;}
+
+.gul-box {display: flex;
+justify-content: space-between;}
+
+.gul-box > img {width:40%;}
+
+.gul-box .gul-text {width: 40%;}
+
+.gul-text > h1 {font-size:32px;
+margin:0 0 40% 0;}
+
+.gul-text > p {font-size:18px;}
+
+.gul-text > a {color:black;
+padding:20px 0;
+font-size:18px;}
+
+.ft {background-image: url(/media/rasm8.png);
+width:100%;
+padding:80px 0;
+background-repeat: no-repeat;}
+
+.ft1 {margin:0 5%;}
+
+.ft1 form button {padding:15px 60px;
+margin:20px 0 0 0;}
+
+.ft-box1 {padding:20px 50px;
+background: #000000;
+color:white;
+text-align: center;
+width:50%;
+margin-bottom:3%;}
+
+.ft-box1 > h1 {font-size:30px;
+margin:20px 0;}
+
+.ft-box1 > p {font-size:20px;
+margin:20px 0;}
+
+.ft-box2 {padding:20px 50px;
+background: #000000;
+color:white;
+text-align: center;
+width:50%;}
+
+.ft-box2 > h1 {font-size:25px;
+margin-bottom:40px;}
+
+.ft-box2 > a {font-size:16px;}
+
+.card5{display: flex;
+flex-wrap: wrap;
+background-color: #191919;
+padding: 50px;}
+
+.f1{width: 28%;}
+
+.card5 h1{color: #fff;
+padding-bottom: 20px;
+font-size: 38px;}
+
+.card5 p{color: #fff;
+letter-spacing: 1px;
+line-height: 25px;}
+
+.card5 form input{
+background-color:#191919;
+border: #191919;
+padding-left: 20px;}
+
+.card5 form button{color: #fff;
+background-color: #191919;
+border:#191919;
+padding: 5px 0px 5px 20px;
+margin-left: 250px;}
+
+.card5 form{padding-top: 25px;
+padding-bottom: 20px;
+border-bottom: 3px solid #8A8A8A;}
+
+.f2{width: 60%;
+display: flex;
+justify-content: space-between;
+margin: 0 0 0 120px;
+padding-left: 120px;}
+
+.f2 h3{font-family: sans-serif;
+color: #fff;
+padding-bottom: 30px;
+font-size: 20px;}
+
+.f2 h1{padding-bottom: 30px;}
+
+.f2 a{display: flex;
+line-height: 35px;
+color: #8A8A8A;
+font-size: 18px;}
+
+.f3{display: flex;
+padding-top: 60px;
+gap: 50px;}
+
+.f3 a{color: #8A8A8A;}
+
+.f3 h3{color: #fff;}
+
